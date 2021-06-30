@@ -1,0 +1,2 @@
+(this["webpackJsonplabs-bcs"]=this["webpackJsonplabs-bcs"]||[]).push([[0],{10:function(t,e,n){"use strict";n.r(e);var c=n(0),s=n.n(c),r=n(3),i=n.n(r),b=(n(8),n(1));var o=function(){return Object(b.jsx)("div",{children:"..."})};i.a.render(Object(b.jsx)(s.a.StrictMode,{children:Object(b.jsx)(o,{})}),document.getElementById("root"))},8:function(t,e,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.9b5bfe1a.chunk.js.map
