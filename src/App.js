@@ -3,7 +3,7 @@ import './App.css';
 
 function App () {
   return (
-    <div className='body'>
+    <div className='Body-Div'>
       Bruno Camargo Souza
     </div>
   );
