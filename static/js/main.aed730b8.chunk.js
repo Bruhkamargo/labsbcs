@@ -1,2 +1,0 @@
-(this["webpackJsonplabs-bcs"]=this["webpackJsonplabs-bcs"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var c=t(0),s=t.n(c),r=t(3),a=t.n(r),o=(t(8),t(1));var i=function(){return Object(o.jsx)("div",{className:"Body-Div",children:"Bruno Camargo Souza"})};a.a.render(Object(o.jsx)(s.a.StrictMode,{children:Object(o.jsx)(i,{})}),document.getElementById("root"))},8:function(e,n,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.aed730b8.chunk.js.map
