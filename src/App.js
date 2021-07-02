@@ -4,7 +4,12 @@ import './App.css';
 function App () {
   return (
     <div className='Body-Div'>
-      Bruno Camargo Souza
+      <div className='Barra-ld'>
+        Bruno Camargo Souza
+      </div>
+      <div className='Barra-ce'>
+        Bruno Camargo Souza
+      </div>
     </div>
   );
 }
