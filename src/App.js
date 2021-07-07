@@ -4,11 +4,10 @@ import './App.css';
 function App () {
   return (
     <div className='Body-Div'>
-      <div className='Barra-ld'>
-        Bruno Camargo Souza
-      </div>
-      <div className='Barra-ce'>
-        Bruno Camargo Souza
+      <div className='div-menu'>
+        <div className='div-menu-tit'>
+          <h1 className='menu-tit'>Menu:</h1>
+          </div>
       </div>
     </div>
   );
