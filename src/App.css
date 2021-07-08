@@ -22,6 +22,7 @@ body {
 }
 .menu-tit {
     margin: 5%;
+    margin-top: 0;
     color: rgb(178, 223, 219);
 }
 .Button-menu {
