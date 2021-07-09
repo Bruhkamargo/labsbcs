@@ -27,7 +27,9 @@ function App () {
         <button className='Button-menu' title='Uma Repetição Máxima'>1 - RM</button>
         <button className='Button-menu'>Bt_2</button>
         <div className='Footer-menu'>
-          <span>https://github.com/Bruhkamargo</span>
+          <a target="_black" rel="noreferrer noopener" href="https://twitter.com/HerrCamargo">Twitter </a>
+          <a target="_black" rel="noreferrer noopener" href="https://github.com/Bruhkamargo">GitHub </a>          
+          <a target="_black" rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=5549998193608">WhatsApp </a>          
         </div>
       </div>
       <div id='ID-imc' className='div-imc'> 
@@ -49,10 +51,10 @@ function App () {
           <input type='number'></input>
         </label>
         <div>
-          Resultados:
+          <h2>Resultados:</h2>
         </div>
         <div className='Footer-menu'>
-          <button onClick={retornar}>Voltar</button>
+          <button className='Footer-menu-bt' onClick={retornar}>Voltar</button>
         </div>
 
       </div>

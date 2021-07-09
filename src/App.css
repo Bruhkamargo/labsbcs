@@ -47,6 +47,10 @@ body {
     height: 10%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .div-imc {
     display: none;
@@ -58,4 +62,12 @@ body {
     width: 100vw;
     margin: 5%;
     border-radius: 50px;
+}
+.Footer-menu-bt{
+    width: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.Footer-menu-bt:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
