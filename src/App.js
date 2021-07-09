@@ -12,7 +12,7 @@ function App () {
         <button className='Button-menu' title='Uma Repetição Máxima'>1 - RM</button>
         <button className='Button-menu'>Bt_2</button>
         <div className='Footer-menu'>
-          <a to={'https://github.com/Bruhkamargo'}></a>
+          <span>https://github.com/Bruhkamargo</span>
         </div>
       </div>
     </div>
