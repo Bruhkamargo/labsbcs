@@ -27,7 +27,7 @@ function App () {
         <button className='Button-menu' title='Uma Repetição Máxima'>1 - RM</button>
         <button className='Button-menu'>Bt_2</button>
         <div className='Footer-menu'>
-          <a target="_black" rel="noreferrer noopener" href="https://twitter.com/HerrCamargo">Twitter </a>
+          <a target="_black" rel="noreferrer noopener" href="https://www.instagram.com/k1bruno/">Instagram </a>
           <a target="_black" rel="noreferrer noopener" href="https://github.com/Bruhkamargo">GitHub </a>          
           <a target="_black" rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=5549998193608">WhatsApp </a>          
         </div>
