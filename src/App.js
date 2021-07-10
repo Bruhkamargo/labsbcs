@@ -4,6 +4,8 @@ import './App.css';
 function App () {
   
   const [Sex, setSex] = useState(true)
+  const [Hei, setHei] = useState(0)
+  const [Wei, setWei] = useState(0)
 
   const bt_1 = () => {
     document.getElementById('ID-menu').style.display = 'none';
@@ -36,22 +38,26 @@ function App () {
         <div className='Header-menu'>
           <h1 className='menu-tit'>IMC:</h1>
         </div>
-        <label>Sexo:
-          <label> Masc. 
-            <input type='Radio' value='sex_1' checked={Sex?true:false} onChange={() => {Sex?setSex(false):setSex(true)}}/>
+        <div className='div-imc-form'>
+          <label>Sexo:
+            <label> Masc. 
+              <input type='Radio' value='sex_1' checked={Sex?true:false} onChange={() => {Sex?setSex(false):setSex(true)}}/>
+            </label>
+            <label> Fem. 
+              <input type='Radio' value='sex_2' checked={Sex?false:true} onChange={() => {Sex?setSex(false):setSex(true)}}/>
+            </label>
           </label>
-          <label> Fem. 
-            <input type='Radio' value='sex_2' checked={Sex?false:true} onChange={() => {Sex?setSex(false):setSex(true)}}/>
+          <label>Peso:          
+            <input type='number' value={Wei} onChange={()=>{}}></input>
           </label>
-        </label>
-        <label>Peso:          
-          <input type='number'></input>
-        </label>
-        <label>Altura:          
-          <input type='number'></input>
-        </label>
-        <div>
-          <h2>Resultados:</h2>
+          <label>Altura:          
+            <input type='number' value={Hei} onChange={()=>{}}></input>
+          </label>
+          <div className='div-imc-result'>
+            <h2>Resultados:</h2>
+            <label>IMC:</label>
+            <label>IMC:</label>
+          </div>
         </div>
         <div className='Footer-menu'>
           <button className='Footer-menu-bt' onClick={retornar}>Voltar</button>
