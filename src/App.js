@@ -48,10 +48,10 @@ function App () {
             </label>
           </label>
           <label>Peso:          
-            <input type='number' value={Wei} onChange={()=>{}}></input>
+            <input type='number' value={Wei} onChange={()=>{setHei()}}></input>
           </label>
           <label>Altura:          
-            <input type='number' value={Hei} onChange={()=>{}}></input>
+            <input type='number' value={Hei} onChange={()=>{setWei()}}></input>
           </label>
           <div className='div-imc-result'>
             <h2>Resultados:</h2>
