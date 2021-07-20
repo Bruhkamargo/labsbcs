@@ -14,7 +14,7 @@ function App () {
 
   return (
     <div className='Body-Div'>
-      <h1>Menu:</h1>
+      <h1 id='ID-Menu-tit' className='Menu-tit'>Menu:</h1>
       <div id='ID-menu' className='Menu'>        
         <button
           className='Button-menu'
