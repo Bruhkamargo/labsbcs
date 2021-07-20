@@ -65,24 +65,51 @@ label {
 }
 .IMC {
     display: none;
-    background-color: rgb(178, 223, 219);
-    /*box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.5);*/
+    border: 2px solid white;
     position: relative;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
     height: 100%;
-    margin: 5%;
     padding: 5%;
     border-radius: 50px;
 }
-.IMC > span {
+.imc-sex {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
 }
-.IMC > span > input {
-    height: 50px;
-    width: 100%;
+.imc-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
+}
+.imc-input > input {
+    width: 90%;
+    height: 40px;
+}
+.imc-input-bt {
+    border: none;
+    width: 60%;
+    height: 40px;
+}
+.bt-return {
+    display: none;
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    box-shadow: inset 0px 0px 20px 0px white;
 }
