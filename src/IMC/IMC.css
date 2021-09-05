@@ -1,0 +1,67 @@
+.IMC {
+    display: none;
+    /* border: 2px solid white; */
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 79%;
+    padding: 5%;
+    border-radius: 50px;
+}
+.imc-sex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 15%;
+    padding: 0px 15%;
+}
+.imc-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
+}
+.imc-input > input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.imc-input-bt {
+    border: none;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+}
+.imc-input-bt:hover {
+    box-shadow: inset 0px 0px 7px 0px rgb(19, 49, 183);
+}
+.imc-input-bt:active {
+    box-shadow: inset 0px 0px 7px 0px black;
+} 
+.bt-return {
+    display: none; 
+    background: transparent;
+    color: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin-bottom: 1%; */
+    /* margin-top: 1%; */
+    /* box-shadow: inset 0px 0px 20px 0px white;*/
+} 
+.bt-return:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0px 0px 20px 0px white;
+    color: black;
+}
